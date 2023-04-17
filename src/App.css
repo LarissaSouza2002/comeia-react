@@ -1,0 +1,62 @@
+@media(max-width: 768px) {
+header{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    width: 88vw;
+}
+
+.titulo-centralizado, .titulo-principal{
+    font-size: 15px;
+    width: 15vw;
+}
+
+nav{
+    padding: 22px;
+}
+
+nav div a{
+    margin: 55px;
+}
+}
+
+@media (max-width: 375px){
+  header{
+      width: 100vw;
+      height: 23vh;
+      margin-bottom: 15px;
+  }
+
+  #logo{
+      height: 15vh;
+      width: 15vw;
+  }
+
+  .titulo-centralizado, .titulo-principal{
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+  }
+
+  nav div a{
+      font-size: 14px;
+
+  }
+
+  .info-card{
+      width: 80vw;
+  }
+
+  .card-container{
+      padding: 0;
+  }
+
+  footer{
+      width: 95vw;
+      margin-top: 15;
+  }
+
+  .footer-text{
+      font-size: 12px;
+  }
+}

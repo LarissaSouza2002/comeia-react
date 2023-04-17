@@ -1,0 +1,98 @@
+form div input, textarea{
+    width: 100%;
+}
+
+div label, input{
+    text-transform: uppercase;
+} 
+
+form {
+    background-color: rgb(201, 193, 193);
+    color: black;
+    padding: 20px; 
+    width: 50%;
+    text-align: center;
+    height: 100%;
+    border-radius: 10px;
+    margin: 66px auto;
+    border:solid #b99d37;
+    margin-bottom: 120px;
+}
+
+form div{
+    border: 0;
+}
+
+.form-control{
+    position: relative;
+}
+
+.form-control small{
+    left: 0;
+    margin-left: 5px;
+    visibility: hidden;
+}
+
+.form-control i{
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.form-control.error input{
+    border-color: #e74c3c;
+}
+
+textarea:focus, input:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.form-control.success input{
+    border-color: #2ecc71;
+}
+
+.form-control.success i.fa-check-circle{
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle{
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.form-control.error small{
+    visibility: visible;
+    color: #9d1b0d;
+}
+
+input{
+    height: 30px;
+    display: inline-block;
+    font-size: 12px;
+    padding: 10px;
+    width: 97%;
+}
+
+#username, #email, #telefone{
+    width: 98%;
+}
+
+textarea{
+    resize: none;
+    align-self: center;
+}
+
+button{
+    border-radius: 20px;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+} 
