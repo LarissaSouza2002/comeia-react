@@ -9,7 +9,7 @@ footer {
     width: 100%;
     height: 80px;
     font-size: 20px;
-    position:fixed;
+    margin-top: -43px;
 }
 
 .footer-text {
