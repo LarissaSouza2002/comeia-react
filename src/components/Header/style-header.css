@@ -31,3 +31,31 @@ h2{
 .titulo-centralizado{
     align-self: flex-end;
 }
+
+nav {
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+/* padding: 30px;
+display: flex;
+flex-direction: row-reverse; */
+}
+
+nav  div{
+list-style-type: none;
+}
+
+nav div a{
+color: red;
+margin: 30px;
+text-align: right;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+nav div a:hover{
+color: #b99d37;
+cursor: pointer;
+}

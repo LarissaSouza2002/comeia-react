@@ -1,5 +1,7 @@
 import React, {useState} from "react";
 import "./style-contact.css"
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 
 function Contact() {
     const [nome, setNome] = useState("");
@@ -29,6 +31,8 @@ function Contact() {
     }
 
     return (
+        <>
+        <Header/>
         <main>
 
             <form onSubmit={enviarFormulario}>
@@ -96,7 +100,9 @@ function Contact() {
                     <button id="button" type="submit">Enviar</button>                
             </form>
         </main>
+        <Footer/>
+        </>
     )
 }
-
+    
 export default Contact;

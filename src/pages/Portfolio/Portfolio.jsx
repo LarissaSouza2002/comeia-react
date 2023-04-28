@@ -1,10 +1,13 @@
 import React from "react";
 import "./style-portfolio.css"
 import date from "./Portfolio.json"
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 
 function Portfolio() {
     return (
         <>
+        <Header/>
         <main>
             <div class="container">
 
@@ -23,6 +26,7 @@ function Portfolio() {
                 
             </div>
         </main>
+        <Footer/>
         </>
     )
 }

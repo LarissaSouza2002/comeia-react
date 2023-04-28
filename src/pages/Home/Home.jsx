@@ -1,13 +1,13 @@
 import React from "react";
-import "./style-curriculum.css";
-import data from "./Curriculum.json";
-// import Header from "../Header/header";
-// import Footer from "../Footer/Footer";
+import "./style-Home.css";
+import data from "./Home.json";
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 
-function Curriculum() {
+function Home() {
     return (
         <>
-
+        <Header/>
     <section className="section">
             <div className="card-container">
                 <div className="info-card">
@@ -42,8 +42,9 @@ function Curriculum() {
                 </div>
             </div>
         </section>
+        <Footer/>
         </>
     )
 }
 
-export default Curriculum;
+export default Home;
