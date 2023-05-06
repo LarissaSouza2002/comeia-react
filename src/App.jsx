@@ -7,24 +7,19 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import Nav from "./components/Nav/Nav";
-// import "../script.js";
 
 function App() {
-    return (
+  return (
     <>
-    <Header/>
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<Home/>}/>
-                <Route path="/portfolio" element= {<Portfolio/>} />
-                <Route path="/contato" element= {<Contact/>} />
-            </Routes>
-        </BrowserRouter>
-    <Footer/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contato" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
     </>
-)
+  );
 }
 
 export default App;
-
-{/* <Nav/> */}
